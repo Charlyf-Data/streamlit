@@ -14,21 +14,24 @@ authenticator = Authenticate(user_data, "cookie_name", "cookie_key", 30)
 authenticator.login()
 
 def accueil():
-    st.title("🐧Bienvenu sur le contenu réservé aux utilisateurs connectés🐧")
+    st.title("🐧Welcome on board🐧")
     st.image("pingouin.png")
     
     
     
 
 def photos_oiseaux():
-    st.title("Mes plus belles photos de profil")
+    st.title("Votre équipages")
     cols = st.columns(3)
     with cols[0]:
         st.image("potoo.png")
+        st.header("Michel (Stewart)")
     with cols[1]:
         st.image("ahah.png")
+        st.header("Robert (captain)")
     with cols[2]: 
         st.image('moi_et_monpoto.png')
+        st.header("Jacky et Bernard (copilots)")
       
     
 
