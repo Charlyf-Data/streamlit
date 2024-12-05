@@ -1,0 +1,20 @@
+{
+    "usernames": {
+        "utilisateur": {
+            "name": "charly",
+            "password": "charlyMDP",
+            "email": "charly.fournet@hotmail.fr",
+            "failed_login_attempts": 0,
+            "logged_in": false,
+            "role": "utilisateur"
+        },
+        "root": {
+            "name": "admin",
+            "password": "Admin",
+            "email": "charly.fournet@hotmail.fr",
+            "failed_login_attempts": 0,
+            "logged_in": false,
+            "role": "administrateur"
+        }
+    }
+}
